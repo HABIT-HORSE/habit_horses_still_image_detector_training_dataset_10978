@@ -8,13 +8,13 @@ The developer does not claim or assert any copyright over many of the images in 
  
 There are a total of 10,978 images, consisting of:
  
-6183 x positive images of horses (many horse breeds, ages, genders, viewpoints, scales, occluded, multiple instances of target object etc.): grayscale, 100x100 pixels, BMP format (better for...) in the directory: habit_horses_still_image_detector_training_dataset_10978\pos\rawdata\
+6183 x positive images of horses (many horse breeds, ages, genders, viewpoints, scales, occluded, multiple instances of target object etc.): grayscale, 100x100 pixels, BMP format in the directory: habit_horses_still_image_detector_training_dataset_10978\pos\rawdata\
  
 The positive images were sourced from various places, including: the developer’s own images, Google Image searches, ImageNet [2] and the Weizmann Horse Databases [3][4][5].
  
 4795 x negative images (not showing horses): grayscale, 100x100 pixels, JPG format in the directory: habit_horses_still_image_detector_training_dataset_10978\neg\
  
-The negative images were sources using a Python script (download_neg_image_by_link.py, written by the developer) to bulk download targeted image synsets (for example: ‘athletics’, ‘raw vegetables’, ‘people’, ‘cars’, ‘devices’ etc.) from ImageNet [2].
+The negative images were sourced using a Python script (download_neg_image_by_link.py, written by the developer) to bulk download targeted image synsets (for example: ‘athletics’, ‘raw vegetables’, ‘people’, ‘cars’, ‘devices’ etc.) from ImageNet [2].
  
 The Python script also automatically resized each image to 100x100 pixels, converted it to grayscale, changed the format to BMP (if necessary) and renamed each one, with a sequential number. 
  
